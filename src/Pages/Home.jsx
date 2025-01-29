@@ -25,7 +25,7 @@ const MainTitle = memo(() => (
       <span className="relative inline-block">
         <span className="absolute -inset-2 bg-gradient-to-r from-[#6366f1] to-[#a855f7] blur-2xl opacity-20"></span>
         <span className="relative bg-gradient-to-r from-white via-blue-100 to-purple-200 bg-clip-text text-transparent">
-          Frontend
+          Full stack
         </span>
       </span>
       <br />
@@ -78,11 +78,11 @@ const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
 const PAUSE_DURATION = 2000;
 const WORDS = ["Passionate about continuous learning", "Tech Enthusiast"];
-const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
+const TECH_STACK = ["React", "Javascript", "Node.js", "wordpress" ,"mongoDB", "Express.js", "TailwindCSS", "Bootstrap"];
 const SOCIAL_LINKS = [
   { icon: Github, link: "https://github.com/saheelshaikh" },
   { icon: Linkedin, link: "https://www.linkedin.com/in/saheel-shaikh-33b5b3265/" },
-  { icon: Instagram, link: "https://www.instagram.com/sahxel_/?hl=id" }
+  { icon: Instagram, link: "https://www.instagram.com/x308yz/" }
 ];
 
 const Home = () => {
@@ -183,7 +183,7 @@ const Home = () => {
                 <p className="text-base md:text-lg text-gray-400 max-w-xl leading-relaxed font-light"
                   data-aos="fade-up"
                   data-aos-delay="1000">
-                  Menciptakan Website Yang Inovatif, Fungsional, dan User-Friendly untuk Solusi Digital.
+                  Creating Innovative, Functional and User-Friendly Websites for Digital Solutions..
                 </p>
 
                 {/* Tech Stack */}

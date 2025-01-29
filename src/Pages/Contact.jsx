@@ -135,7 +135,7 @@ const ContactPage = () => {
               method="POST"
               onSubmit={handleSubmit}
               className="space-y-6"
-            >
+            > 
               {/* FormSubmit Configuration */}
               <input type="hidden" name="_template" value="table" />
               <input type="hidden" name="_captcha" value="false" />
